@@ -1,0 +1,31 @@
+function foo(){
+
+}
+
+
+foo(1,2,3)
+
+PROPS
+
+<foo test="hola" />
+
+
+
+
+
+CICLO DE VIDA
+
+
+mount
+    constructor()
+    render()
+    componentDidMount()
+
+update
+    shouldComponentUpdate()
+    render()
+    componentDidUpdate()
+
+
+unmount
+    componentWillUnmount()
